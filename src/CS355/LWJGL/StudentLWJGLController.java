@@ -158,7 +158,6 @@ public class StudentLWJGLController implements CS355LWJGLController
 //            resizeGL();
             glMatrixMode(GL_PROJECTION);
             glLoadIdentity();
-//            glViewport(0, 0, LWJGLSandbox.DISPLAY_WIDTH,LWJGLSandbox.DISPLAY_HEIGHT);
             glOrtho(-32.5f, 32.5f, -32.5f, 32.5f, 1.0f, 1000.0f);
             glMatrixMode(GL_MODELVIEW);
         }
